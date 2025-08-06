@@ -50,7 +50,6 @@ The MoviesDatabase API provides movie-related information such as titles, genres
 
 ### Sample Request (GET `/titles`)
 
-```http
 GET https://moviesdatabase.p.rapidapi.com/titles
 Headers:
   X-RapidAPI-Key: your_api_key
