@@ -58,17 +58,17 @@ Headers:
 Query Params:
   year=2023
   genre=comedy
-  page=1
+  page=1```
 
 ---
 
-## Authentication
+### Authentication
 
 You must supply your RapidAPI credentials in the HTTP request headers:
 - X-RapidAPI-Key: your_api_key
 - X-RapidAPI-Host: moviesdatabase.p.rapidapi.com
 
-## Error Handling
+### Error Handling
 
 Common API Errors and Their Meaning:
 
@@ -85,7 +85,7 @@ Common API Errors and Their Meaning:
 
 ---
 
-## Usage Limits and Best Practices
+### Usage Limits and Best Practices
 
 - The API enforces rate limits based on your RapidAPI subscription plan (e.g., **500 requests/day** for the free tier).
 - Always use **pagination** when fetching large datasets to improve performance and reduce server load.
